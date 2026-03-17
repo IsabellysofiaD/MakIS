@@ -33,6 +33,4 @@ Instruções para Executar o Frontend:
 2.Navegue até o diretório do projeto.
 3.Abra o arquivo index.html em seu navegador.
 
-endereço utilizado para acessar a API durante os testes:
 
-http://10.106.208.42:3000/api/maquiagens
