@@ -1,21 +1,21 @@
 💄🩷 Projeto Maquiagem - MAKEIS 🩷💄
 
 ✨ Explorando o mundo da maquiagem de forma moderna e interativa!
-
-<p align="center"> <img src="3.jpg" alt="Preview do projeto MAKEIS" width="700"/> </p>
+_________________________________________________________________________________________
 👩‍💻 Integrantes
 
 Isabelly Sofia Domingues
 
 Sarah Kohn Baldoini
-
+_________________________________________________________________________________________
 🎨 Tema da API
 
 💡 API de maquiagem — utilizada para buscar e exibir produtos de forma dinâmica no site.
-
+_________________________________________________________________________________________
 📖 Descrição do Projeto
 
-O MAKEIS é um site voltado para o universo da maquiagem, com o objetivo de facilitar a busca e exploração de produtos.
+O MAKEIS é um site voltado para o universo da maquiagem, com o objetivo de facilitar a 
+busca e exploração de produtos.
 
 🔧 O projeto foi dividido em duas partes:
 
@@ -23,7 +23,9 @@ Back-end desenvolvido no computador da Isabelly
 
 Front-end desenvolvido no computador da Sarah
 
-🌐 A comunicação entre os dois foi realizada através do IP do computador da Isabelly, permitindo integração entre as partes.
+🌐 A comunicação entre os dois foi realizada através do IP do computador da Isabelly, 
+permitindo integração entre as partes.
+_________________________________________________________________________________________
 
 🛠️ Tecnologias Utilizadas
 
@@ -38,7 +40,7 @@ Front-end desenvolvido no computador da Sarah
 📦 JSON
 
 🎯 Figma (prototipação)
-
+_________________________________________________________________________________________
 🚀 Como Executar o Projeto
 🔙 Backend
 
@@ -46,7 +48,7 @@ Acesse o computador da dupla
 
 Navegue até o diretório do projeto
 
-Execute os comandos:
+Execute:
 
 cd Back-end
 node server.js
@@ -59,6 +61,7 @@ Navegue até o diretório do projeto
 Abra o arquivo:
 
 index.html
+_________________________________________________________________________________________
 🌟 Funcionalidades
 
 🔍 Busca de produtos de maquiagem
@@ -68,7 +71,7 @@ index.html
 🎨 Interface inspirada em revistas de moda
 
 💡 Sugestões de produtos
-
+_________________________________________________________________________________________
 📌 Objetivo
 
 Este projeto foi desenvolvido com o objetivo de praticar:
