@@ -1,36 +1,46 @@
-Projeto de Maquiagem =>
 
-Integrantes da Dupla:
+🩷Projeto maquiagem🩷
 
+INTEGRANTES :
 Isabelly Sofia Domingues
-
 Sarah Kohn Baldoini
 
-Tema da API:
 
+🩷Tema da API
 API de maquiagem
 
-Descrição do Projeto
-
+🩷Descrição do Projeto
 O projeto consiste em um site de maquiagem, com back-end desenvolvido no computador da sua dupla e front-end desenvolvido no seu computador. Vocês se conectaram através do IP do computador da sua dupla.
 
-Tecnologias Utilizadas:
-
+🩷 Front-End
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-CSS
-JavaScript
-Node.js (back-end)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-Instruções para Executar o Backend:
 
-1.Acesse o computador da sua dupla.
-2.Navegue até o diretório do projeto.
-3.Execute o comando node server.js para iniciar o servidor back-end.
+🩷Back-End
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 
-Instruções para Executar o Frontend:
+---
 
-1.Acesse o seu computador.
-2.Navegue até o diretório do projeto.
-3.Abra o arquivo index.html em seu navegador.
+ Meus Projetos
 
+| Instruções para Executar o Backend  🤍             
+|-----------------------------------------------|
+|Acesse o computador da sua dupla.|
+|Navegue até o diretório do projeto.|
+|Execute o comando node server.js para iniciar o servidor back-end |
+
+
+
+
+
+
+
+| Instruções para Executar o Frontend     🩷          
+|-----------------------------------------------|
+|Acesse o seu computador.|
+|Navegue até o diretório do projeto.|
+|Abra o arquivo index.html em seu navegador. |
 
