@@ -1,39 +1,82 @@
+💄🩷 Projeto Maquiagem - MAKEIS 🩷💄
 
-🩷Projeto Maquiagem - MAKEIS🩷
+✨ Explorando o mundo da maquiagem de forma moderna e interativa!
 
-INTEGRANTES :
+<p align="center"> <img src="3.jpg" alt="Preview do projeto MAKEIS" width="700"/> </p>
+👩‍💻 Integrantes
+
 Isabelly Sofia Domingues
+
 Sarah Kohn Baldoini
----
 
-🩷 Tema da API
-API de maquiagem
----
+🎨 Tema da API
 
-🩷 Descrição do Projeto
-O projeto consiste em um site de maquiagem, com back-end desenvolvido no computador da Isabelly e front-end desenvolvido no computador da Sarah. Nos conectamos através do IP do computador da Isabelly.
----
+💡 API de maquiagem — utilizada para buscar e exibir produtos de forma dinâmica no site.
 
-🩷 Tecnologias Utilizadas
-HTML
-CSS
-Figma
-JavaScript
-Node.js (back-end)
-json
----
+📖 Descrição do Projeto
 
-| Instruções para Executar o Backend  🤍             
-|-----------------------------------------------|
-|Acesse o computador da dupla.|
-|Navegue até o diretório do projeto.|
-|Execute o comando cd Back-end e depois node server.js para iniciar o servidor back-end |
+O MAKEIS é um site voltado para o universo da maquiagem, com o objetivo de facilitar a busca e exploração de produtos.
 
----
+🔧 O projeto foi dividido em duas partes:
 
-| Instruções para Executar o Frontend  🤍           
-|-----------------------------------------------|
-|Acesse o seu computador.|
-|Navegue até o diretório do projeto.|
-|Depois é só abrir o arquivo index.html no navegador. |
+Back-end desenvolvido no computador da Isabelly
 
+Front-end desenvolvido no computador da Sarah
+
+🌐 A comunicação entre os dois foi realizada através do IP do computador da Isabelly, permitindo integração entre as partes.
+
+🛠️ Tecnologias Utilizadas
+
+🌐 HTML5
+
+🎨 CSS3
+
+🧠 JavaScript
+
+🟢 Node.js (Back-end)
+
+📦 JSON
+
+🎯 Figma (prototipação)
+
+🚀 Como Executar o Projeto
+🔙 Backend
+
+Acesse o computador da dupla
+
+Navegue até o diretório do projeto
+
+Execute os comandos:
+
+cd Back-end
+node server.js
+💻 Frontend
+
+Acesse o seu computador
+
+Navegue até o diretório do projeto
+
+Abra o arquivo:
+
+index.html
+🌟 Funcionalidades
+
+🔍 Busca de produtos de maquiagem
+
+💄 Visualização de itens com imagem
+
+🎨 Interface inspirada em revistas de moda
+
+💡 Sugestões de produtos
+
+📌 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+Integração entre front-end e back-end
+
+Consumo de API
+
+Criação de interfaces modernas
+
+Trabalho em equipe 💕
