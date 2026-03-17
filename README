@@ -1,0 +1,38 @@
+Projeto de Maquiagem =>
+
+Integrantes da Dupla:
+
+Isabelly Sofia Domingues
+
+Sarah Kohn Baldoini
+
+Tema da API:
+
+API de maquiagem
+
+Descrição do Projeto
+
+O projeto consiste em um site de maquiagem, com back-end desenvolvido no computador da sua dupla e front-end desenvolvido no seu computador. Vocês se conectaram através do IP do computador da sua dupla.
+
+Tecnologias Utilizadas:
+
+HTML
+CSS
+JavaScript
+Node.js (back-end)
+
+Instruções para Executar o Backend:
+
+1.Acesse o computador da sua dupla.
+2.Navegue até o diretório do projeto.
+3.Execute o comando node server.js para iniciar o servidor back-end.
+
+Instruções para Executar o Frontend:
+
+1.Acesse o seu computador.
+2.Navegue até o diretório do projeto.
+3.Abra o arquivo index.html em seu navegador.
+
+endereço utilizado para acessar a API durante os testes:
+
+http://10.106.208.42:3000/api/maquiagens

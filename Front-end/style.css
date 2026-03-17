@@ -1,0 +1,518 @@
+/* =====================================================
+RESET BÁSICO
+Remove espaçamentos padrão do navegador
+e define um modelo de box mais previsível
+===================================================== */
+* {
+    margin: 0;            /* remove margem padrão */
+    padding: 0;           /* remove padding padrão */
+    box-sizing: border-box; /* largura/altura incluem padding e borda */
+}
+
+
+
+
+/* =====================================================
+ESTILO GERAL DA PÁGINA
+===================================================== */
+body {
+
+
+
+
+    /* fonte principal da página */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+    /* fundo em gradiente diagonal */
+    background-image: url('./fundo.jpg');
+
+
+
+
+    /* altura mínima da tela inteira */
+    min-height: 100vh;
+
+
+
+
+    /* usa flexbox para centralizar o conteúdo */
+    display: flex;
+    justify-content: center;  /* centraliza horizontalmente */
+    align-items: center;      /* centraliza verticalmente */
+
+
+
+
+    /* espaço nas bordas da tela */
+    padding: 20px;
+
+
+
+
+}
+
+
+
+
+/* =====================================================
+CONTAINER PRINCIPAL
+===================================================== */
+.container {
+    max-width: 800px;
+    width: 100%;
+
+
+    background: rgba(10, 4, 10, 0.774);
+
+
+    padding: 60px 30px 30px; /* aumenta topo */
+
+
+    border-radius: 20px;
+
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.356);
+
+
+    position: relative; /* importante */
+
+
+   
+}
+
+
+
+
+/* =====================================================
+TÍTULO PRINCIPAL
+===================================================== */
+h1 {
+
+
+   
+    text-align: center;   /* centraliza o texto */
+
+
+
+
+    margin-top: -20px; /* puxa pra cima */
+    margin-bottom: 10px;  /* espaço abaixo do título */
+
+
+
+
+    color: aliceblue;
+
+
+
+
+    font-family: "Gravitas One", serif;
+
+
+
+
+}
+
+
+
+
+
+
+/* =====================================================
+SUBTÍTULO
+===================================================== */
+.subtitle {
+
+
+
+
+    text-align: center;  /* centraliza texto */
+
+
+
+
+    margin-bottom: 20px;
+
+
+
+
+    color: #ffffff;         /* cor cinza */
+
+
+     font-family: "Bitter", serif;
+
+
+     font-size: 22px;
+
+
+}
+
+
+
+
+/* =====================================================
+ÁREA ONDE A IMAGEM DAS MAQUIAGENS APARECEM
+===================================================== */
+.make-box {
+/*dog area*/
+
+
+
+
+    background: #ffffff49;  /* fundo cinza claro */
+
+
+
+
+    border-radius: 15px;  /* cantos arredondados */
+
+
+
+
+    padding: 20px;        /* espaço interno */
+
+
+
+
+    margin-bottom: 21px;  /* espaço abaixo */
+
+
+
+
+    min-height: 400px;    /* altura mínima */
+
+
+
+
+    /* centraliza a imagem dentro da área */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    /* permite posicionamento absoluto interno */
+    position: relative;
+
+
+    backdrop-filter: blur(6px);
+}
+
+
+
+
+/* =====================================================
+IMAGEM DAS MAQUIAGENS
+===================================================== */
+#makeImage {
+
+
+
+
+    width: 100%;        /* ocupa toda largura do container */
+
+
+
+
+    max-height: 400px;  /* altura máxima */
+
+
+
+
+    object-fit: contain; /* mantém proporção da imagem */
+
+
+
+
+    border-radius: 10px; /* cantos arredondados */
+
+
+
+
+    cursor: pointer;     /* muda cursor para indicar clique */
+
+
+
+
+}
+
+
+
+
+/* =====================================================
+TIPOS DE MAQUIAGEM
+===================================================== */
+#makeTypes {
+
+
+
+
+    position: absolute; /* posição absoluta dentro de .make-box */
+
+
+
+
+    bottom: 20px; /* distância da parte inferior */
+    left: 20px;   /* distância da esquerda */
+
+
+
+
+    background: rgba(0,0,0,0.7); /* fundo preto transparente */
+
+
+
+
+    color: white; /* texto branco */
+
+
+
+
+    padding: 6px 14px; /* espaço interno */
+
+
+
+
+    border-radius: 20px; /* formato arredondado */
+
+
+
+
+}
+
+
+
+
+/* =====================================================
+ÁREA DE BOTÕES E BUSCA
+===================================================== */
+.controls,
+.search {
+
+
+    display: flex;
+    align-items: center;
+
+
+    background: rgba(255,255,255,0.15);
+
+
+    border-radius: 10px;
+
+
+    padding: 5px;
+
+
+    backdrop-filter: blur(10px);
+    margin-bottom: 8px;
+
+
+}
+
+
+
+
+/* =====================================================
+BOTÕES
+===================================================== */
+button {
+    flex: 1;
+
+
+    padding: 14px;
+
+
+    border: none;
+
+
+    border-radius: 12px;
+
+
+    background: #000000;
+
+
+    color: white;
+
+
+    font-weight: bold;
+
+
+    cursor: pointer;
+
+
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* efeito quando o mouse passa sobre o botão */
+button:hover {
+
+
+    background: #eb86d5;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+
+}
+
+
+button:active {
+    transform: scale(0.97);
+}
+
+
+/* =====================================================
+CAMPO DE INPUT (BUSCA)
+===================================================== */
+input {
+   
+    flex: 2;
+
+
+    padding: 14px;
+
+
+    border-radius: 12px;
+
+
+    border: 2px solid transparent;
+
+
+    font-size: 16px;
+
+
+    outline: none;
+
+
+    background: rgba(255,255,255,0.9);
+
+
+    transition: 0.3s;
+}
+
+
+
+
+/* =====================================================
+ESTADO DE CARREGAMENTO
+(desabilita interação)
+===================================================== */
+.loading {
+
+
+
+
+    opacity: 0.6; /* deixa o elemento transparente */
+
+
+
+
+    pointer-events: none; /* bloqueia cliques */
+
+
+
+
+}
+
+
+
+
+/* =====================================================
+MENSAGEM DE CARREGAMENTO
+===================================================== */
+.loading::after {
+
+
+
+
+    content: "Carregando..."; /* texto exibido */
+
+
+
+
+    position: absolute;
+
+
+
+
+    background: black;
+
+
+
+
+    color: white;
+
+
+
+
+    padding: 10px 20px;
+
+
+
+
+    border-radius: 20px;
+
+
+
+
+}
+#randomBtn {
+    width: 100%;
+    padding: 16px;
+
+
+    border-radius: 30px; /* mais moderno */
+
+
+    font-size: 16px;
+
+
+    letter-spacing: 0.5px;
+
+
+    transition: all 0.3s ease;
+}
+
+
+/* efeito bonito */
+#randomBtn:hover {
+    transform: scale(1.02);
+}
+
+
+#makeInput {
+    flex: 1;
+
+
+    background: #f1f1f1;
+
+
+    border: none;
+
+
+    padding: 12px;
+
+
+    outline: none;
+}
+
+
+#searchBtn {
+    width: 50px;
+    height: 45px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 0;
+    margin-left: 8px;
+}

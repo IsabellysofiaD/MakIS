@@ -1,0 +1,6 @@
+{
+    "gloss":    ["gloss/1.jpg",    "gloss/2.jpg",    "gloss/3.jpg"],
+    "rimel":      ["rimel/1.jpg",      "rimel/2.jpg",      "rimel/3.jpg"],
+    "blush":   ["blush/1.jpg",   "blush/2.jpg",   "blush/3.jpg"],
+    "pó": ["pó/1.jpg", "pó/2.jpg", "pó/3.jpg"]
+}
